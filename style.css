@@ -1,0 +1,40 @@
+@import "node_modules/tailwindcss/dist/lib.d.mts";
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    src: url(assets/fonts/NotoSans-VariableFont_wdth,wght.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: italic;
+    src: url(assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    src: url(assets/fonts/static/NotoSans-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    src: url(assets/fonts/static/NotoSans-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    src: url(assets/fonts/static/NotoSans-Regular.ttf);
+    font-weight: normal;
+}
+
+* {
+    font-family: "Noto Sans", sans-serif;
+}
