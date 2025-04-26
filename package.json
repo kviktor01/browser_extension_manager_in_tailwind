@@ -1,9 +1,6 @@
 {
-  "name": "browser_extension_manager_in_tailwind",
-  "version": "1.0.0",
-  "description": "![Design preview for the Browser extensions manager UI coding challenge](./preview.jpg)",
-  "main": "index.js",
-  "type": "module",
+  "name": "browser-extension-manager-in-tailwind",
+  "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,21 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kviktor01/browser_extension_manager_in_tailwind.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kviktor01/browser_extension_manager_in_tailwind/issues"
-  },
-  "homepage": "https://github.com/kviktor01/browser_extension_manager_in_tailwind#readme",
+  "private": true,
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.4",
-    "@tailwindcss/vite": "^4.1.4",
-    "tailwindcss": "^4.1.4",
-    "vite": "^6.3.1",
     "@angular/common": "^19.2.0",
     "@angular/compiler": "^19.2.0",
     "@angular/core": "^19.2.0",
@@ -33,7 +17,10 @@
     "@angular/platform-browser": "^19.2.0",
     "@angular/platform-browser-dynamic": "^19.2.0",
     "@angular/router": "^19.2.0",
+    "@tailwindcss/postcss": "^4.1.4",
+    "postcss": "^8.5.3",
     "rxjs": "~7.8.0",
+    "tailwindcss": "^4.1.4",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
   },
